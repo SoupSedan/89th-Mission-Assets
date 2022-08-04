@@ -1,1 +1,2 @@
-# 89th-Mission-Assets
+# 89th JTF Mission Assets
+Work-in-progress additions for Arma mission making and zeusing

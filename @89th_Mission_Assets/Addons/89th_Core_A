@@ -1,9 +1,9 @@
 class CfgPatches 
  { 
-         class 89th_Asset_Core
+         class 89th_Core_A
          { 
                  author="89th JTF Mod Team"; 
-                 name="89th Asset"; 
+                 name="89th Assets"; 
                  units[]={}; 
                  weapons[]={}; 
                  magazines[]={}; 
@@ -15,18 +15,18 @@ class CfgPatches
  }; 
  class CfgEditorCategories 
  { 
-         class 89th_EdCat_Asset
+         class 89th_EdCat_A
          { 
-                 displayName="[89th JTF] Assets"; 
+                 displayName="[89th] Assets"; 
          }; 
  }; 
  class CfgEditorSubcategories 
  { 
-         class 89th_EdSubCat_Asset_Enviro 
+         class 89th_EdSubCat_A_Env
          { 
                  displayName="Enviroment"; 
          }; 
-         class 89th_EdSubCat_Asset_null 
+         class 89th_EdSubCat_A_null 
          { 
                  displayName="null"; 
          }; 

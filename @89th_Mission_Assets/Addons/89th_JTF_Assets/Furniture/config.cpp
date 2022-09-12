@@ -37,3 +37,4 @@ class CfgVehicles
 		editorCategory="89th_EdCat_JTF";
 		editorSubcategory="89th_EdSubCat_Furniture";
 	};
+};

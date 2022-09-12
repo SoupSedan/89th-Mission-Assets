@@ -1,10 +1,15 @@
 class CfgPatches
 {
-	class 89th_Mission_A
+	class 89th_JTF_A
 	{
+		author="89th JTF Mod Team";
+		name="89th JTF";
 		units[]={};
 		weapons[]={};
+		magazines[]={};
+		ammo[]={};
 		requiredVersion=0.1;
+		version=0.2;
 		requiredAddons[]=
 		{
 			"89th_Core"

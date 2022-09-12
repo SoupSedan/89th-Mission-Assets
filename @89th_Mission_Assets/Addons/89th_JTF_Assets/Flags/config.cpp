@@ -19,7 +19,6 @@ class CfgPatches
 			"A3_structures_f",
 			"A3_structures_f_mil",
 			"OPTRE_Core",
-			"89th_Core",
 			
 		};
 	};
@@ -45,7 +44,7 @@ class CfgVehicles
 			"89th_JTF_Assets\Flags\Data\89th_flag_JTF.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
-		editorSubcategory="89th_EdSubCat_Flags""
+		editorSubcategory="89th_EdSubCat_Flags";
 	};
 	class 89th_Flag_Goliath: OPTRE_CTF_Flag_Base
 	{
@@ -62,7 +61,7 @@ class CfgVehicles
 			"89th_JTF_Assets\Flags\Data\89th_flag_Goliath.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
-		editorSubcategory="89th_EdSubCat_Flags"";
+		editorSubcategory="89th_EdSubCat_Flags";
 	};
 	class 89th_Flag_Legion: OPTRE_CTF_Flag_Base
 	{
@@ -79,7 +78,7 @@ class CfgVehicles
 			"89th_JTF_Assets\Flags\Data\89th_flag_Legion.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
-		editorSubcategory="89th_EdSubCat_Flags"";
+		editorSubcategory="89th_EdSubCat_Flags";
 	};
 	class 89th_Flag_Thor: OPTRE_CTF_Flag_Base
 	{
@@ -96,7 +95,7 @@ class CfgVehicles
 			"89th_JTF_Assets\Flags\Data\89th_flag_Thor.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
-		editorSubcategory="89th_EdSubCat_Flags"";
+		editorSubcategory="89th_EdSubCat_Flags";
 	};class 89th_Flag_Knight: OPTRE_CTF_Flag_Base
 	{
 		author="Flips";
@@ -112,7 +111,7 @@ class CfgVehicles
 			"89th_JTF_Assets\Flags\Data\89th_flag_Knight.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
-		editorSubcategory="89th_EdSubCat_Flags"";
+		editorSubcategory="89th_EdSubCat_Flags";
 	};
 	class 89th_Flag_Platoon1: OPTRE_CTF_Flag_Base
 	{
@@ -129,7 +128,7 @@ class CfgVehicles
 			"89th_JTF_Assets\Flags\Data\89th_flag_Platoon1.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
-		editorSubcategory="89th_EdSubCat_Flags"";
+		editorSubcategory="89th_EdSubCat_Flags";
 	};
 	class 89th_Flag_Platoon2: OPTRE_CTF_Flag_Base
 	{
@@ -146,7 +145,7 @@ class CfgVehicles
 			"89th_JTF_Assets\Flags\Data\89th_flag_Platoon2.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
-		editorSubcategory="89th_EdSubCat_Flags"";
+		editorSubcategory="89th_EdSubCat_Flags";
 	};
 		class 89th_Flag_1_1Flag: OPTRE_CTF_Flag_Base
 	{
@@ -163,7 +162,7 @@ class CfgVehicles
 			"89th_JTF_Assets\Flags\Data\squadflags\1stplatoon1stsquad.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
-		editorSubcategory="89th_EdSubCat_Flags"";
+		editorSubcategory="89th_EdSubCat_Flags";
 	};
 			class 89th_Flag_1_2Flag: OPTRE_CTF_Flag_Base
 	{
@@ -180,7 +179,7 @@ class CfgVehicles
 			"89th_JTF_Assets\Flags\Data\squadflags\1stplatoon2ndsquad.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
-		editorSubcategory="89th_EdSubCat_Flags"";
+		editorSubcategory="89th_EdSubCat_Flags";
 	};
 			class 89th_Flag_1_3Flag: OPTRE_CTF_Flag_Base
 	{
@@ -197,7 +196,7 @@ class CfgVehicles
 			"89th_JTF_Assets\Flags\Data\squadflags\1stplatoon3rdsquad.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
-		editorSubcategory="89th_EdSubCat_Flags"";
+		editorSubcategory="89th_EdSubCat_Flags";
 	};
 			class 89th_Flag_2_1Flag: OPTRE_CTF_Flag_Base
 	{
@@ -214,7 +213,7 @@ class CfgVehicles
 			"89th_JTF_Assets\Flags\Data\squadflags\2ndplatoon1stsquad.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
-		editorSubcategory="89th_EdSubCat_Flags"";
+		editorSubcategory="89th_EdSubCat_Flags";
 	};	
 	//Flagpole Flags
 	class 89th_Flagpole_JTF: Flag_White_F
@@ -225,7 +224,7 @@ class CfgVehicles
 		scopeCurator=0;
 		displayName="[89th]  JTF Flagpole";
 		editorCategory="89th_EdCat_JTF";
-		editorSubcategory="89th_EdSubCat_Flags"";
+		editorSubcategory="89th_EdSubCat_Flags";
 		class EventHandlers
 		{
 			init="(_this select 0) setFlagTexture ""\89th_JTF_Assets\Flags\Data\89th_flagpole_JTF.paa""";

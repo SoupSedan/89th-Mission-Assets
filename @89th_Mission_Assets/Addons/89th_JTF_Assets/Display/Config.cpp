@@ -13,7 +13,6 @@ class CfgPatches
 		{
 			"A3_structures_f",
 			"OPTRE_Core",
-			"89th_Armor",
 		};
 	};
 };

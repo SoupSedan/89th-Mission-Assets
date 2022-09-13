@@ -30,11 +30,19 @@ class CfgVehicles
 		scopeCurator=0;
 		displayName="BreadCouch";
 		icon="\OPTRE_UNSC_Units\Army\icons\Army_Helmet_wdl.paa";
-		model="\89th_JTF_Assets\Furniture\ModTeamApplication.p3d";
-		author="EpsilonS";
-		armor=999999;
-		armorStructural=999;
-		editorCategory="89th_EdCat_JTF";
-		editorSubcategory="89th_EdSubCat_Furniture";
+		model = "\89th_JTF_Assets\Furniture\ModTeamApplication.p3d";
+		author = "EpsilonS";
+		armor = 999999;
+		armorStructural = 999;
+		editorCategory = "89th_EdCat_JTF";
+		editorSubcategory = "89th_EdSubCat_Furniture";
+		hiddenSelections[] =
+		{
+			"camo",
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"89th_JTF_Assets\Furniture\Data\ModTeamApplication_CO.paa",
+		};
 	};
 };

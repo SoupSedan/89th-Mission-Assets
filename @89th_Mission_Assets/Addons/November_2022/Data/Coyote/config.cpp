@@ -26,7 +26,7 @@ class cfgWeapons
 	class Coyote_M52A_Rifleman: VES_M52A_MAR_Rifleman_C
 	{
 		dlc="89thJTF";
-		author="Rojas and Vespade";
+		author="Syndex and Vespade";
 		displayName="Coyotes M52A (Rifleman)";
 		hiddenSelectionsTextures[]=
 		{	
@@ -112,7 +112,7 @@ class cfgWeapons
 	};
 	class Coyote_M52A_TeamLeader: VES_M52A_MAR_Rifleman_C
 	{	dlc="89thJTF";
-		author="Rojas and Vespade";
+		author="Syndex and Vespade";
 		displayName="Coyotes M52A (Team Leader)";
 		hiddenSelectionsTextures[]=
 		{	
@@ -199,7 +199,7 @@ class cfgWeapons
 	class Coyote_M52A_Marksman: VES_M52A_MAR_Rifleman_C
 	{
 		dlc="89thJTF";
-		author="Rojas and Vespade";
+		author="Syndex and Vespade";
 		displayName="Coyotes M52A (Marksman)";
 		hiddenSelectionsTextures[]=
 		{	
@@ -286,7 +286,7 @@ class cfgWeapons
 	class Coyote_M52A_Assault: VES_M52A_MAR_Rifleman_C
 	{
 		dlc="89thJTF";
-		author="Rojas and Vespade";
+		author="Syndex and Vespade";
 		displayName="Coyotes M52A (Assault)";
 		hiddenSelectionsTextures[]=
 		{	
@@ -373,7 +373,7 @@ class cfgWeapons
 	class Coyote_M52A_Security: VES_M52A_MAR_Rifleman_C
 	{
 		dlc="89thJTF";
-		author="Rojas and Vespade";
+		author="Syndex and Vespade";
 		displayName="Coyotes M52A (Security)";
 		hiddenSelectionsTextures[]=
 		{	
@@ -462,7 +462,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		scope=2;
-		author="Rojas and Vespade";
+		author="Syndex and Vespade";
 		displayName="Coyotes CH252 Helmet";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
@@ -482,7 +482,7 @@ class cfgWeapons
 	class Coyote_CH252_VAC: VES_CH252_MAR_Vacuum
 	{
 		dlc="89thJTF";
-		author="Rojas and Vespade";
+		author="Syndex and Vespade";
 		displayName="Coyotes CH252 Helmet (VAC)";
 		scope=2;
 		CTAB_Camera="false";

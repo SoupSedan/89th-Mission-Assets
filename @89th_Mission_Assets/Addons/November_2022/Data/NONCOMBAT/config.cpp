@@ -92,7 +92,7 @@ class cfgWeapons
 	};
 	class BDU_SLIM_COY: VES_BDU_Evolved_Slim
 	{
-		displayName="[89M] Coyotes BDU (Slim)";
+		displayName="[89M] SPMAGTF BDU (Slim)";
 		class ItemInfo: UniformItem
 		{
 			uniformType="Neopren";
@@ -102,7 +102,7 @@ class cfgWeapons
 	};
 	class BDU_R_SLIM_COY: VES_BDU_R_Evolved_Slim
 	{
-		displayName="[89M] Coyotes BDU (Rolled)(Slim)";
+		displayName="[89M] SPMAGTF BDU (Rolled)(Slim)";
 		class ItemInfo: UniformItem
 		{
 			uniformType="Neopren";

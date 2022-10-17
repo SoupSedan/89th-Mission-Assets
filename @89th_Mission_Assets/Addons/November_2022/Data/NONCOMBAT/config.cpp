@@ -52,7 +52,7 @@ class cfgWeapons
 	};
 	class BDU_SLIM_DN: VES_BDU_Evolved_Slim
 	{
-		displayName="Raiders BDU (Slim)";
+		displayName="[89M] Raiders BDU (Slim)";
 		class ItemInfo: UniformItem
 		{
 			uniformType="Neopren";
@@ -62,7 +62,7 @@ class cfgWeapons
 	};
 	class BDU_R_SLIM_DN: VES_BDU_R_Evolved_Slim
 	{
-		displayName="Raiders BDU (Rolled)(Slim)";
+		displayName="[89M] Raiders BDU (Rolled)(Slim)";
 		class ItemInfo: UniformItem
 		{
 			uniformType="Neopren";
@@ -72,7 +72,7 @@ class cfgWeapons
 	};
 	class BDU_SLIM_ANA: VES_BDU_Evolved_Slim
 	{
-		displayName="Red Sharks BDU (Slim)";
+		displayName="[89M] Red Sharks BDU (Slim)";
 		class ItemInfo: UniformItem
 		{
 			uniformType="Neopren";
@@ -82,7 +82,7 @@ class cfgWeapons
 	};
 	class BDU_R_SLIM_ANA: VES_BDU_R_Evolved_Slim
 	{
-		displayName="Red Sharks BDU (Rolled)(Slim)";
+		displayName="[89M] Red Sharks BDU (Rolled)(Slim)";
 		class ItemInfo: UniformItem
 		{
 			uniformType="Neopren";
@@ -92,7 +92,7 @@ class cfgWeapons
 	};
 	class BDU_SLIM_COY: VES_BDU_Evolved_Slim
 	{
-		displayName="Coyotes BDU (Slim)";
+		displayName="[89M] Coyotes BDU (Slim)";
 		class ItemInfo: UniformItem
 		{
 			uniformType="Neopren";
@@ -102,7 +102,7 @@ class cfgWeapons
 	};
 	class BDU_R_SLIM_COY: VES_BDU_R_Evolved_Slim
 	{
-		displayName="Coyotes BDU (Rolled)(Slim)";
+		displayName="[89M] Coyotes BDU (Rolled)(Slim)";
 		class ItemInfo: UniformItem
 		{
 			uniformType="Neopren";

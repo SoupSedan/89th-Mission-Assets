@@ -27,7 +27,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Syndex and Vespade";
-		displayName="Coyotes M52A (Rifleman)";
+		displayName="[89M] Coyotes M52A (Rifleman)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Armor\Data\Basic\DES\89th_Soft_Vest_DES.paa",
@@ -113,7 +113,7 @@ class cfgWeapons
 	class Coyote_M52A_TeamLeader: VES_M52A_MAR_Rifleman_C
 	{	dlc="89thJTF";
 		author="Syndex and Vespade";
-		displayName="Coyotes M52A (Team Leader)";
+		displayName="[89M] Coyotes M52A (Team Leader)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Armor\Data\Basic\DES\89th_Soft_Vest_DES.paa",
@@ -200,7 +200,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Syndex and Vespade";
-		displayName="Coyotes M52A (Marksman)";
+		displayName="[89M] Coyotes M52A (Marksman)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Armor\Data\Basic\DES\89th_Soft_Vest_DES.paa",
@@ -287,7 +287,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Syndex and Vespade";
-		displayName="Coyotes M52A (Assault)";
+		displayName="[89M] Coyotes M52A (Assault)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Armor\Data\Basic\DES\89th_Soft_Vest_DES.paa",
@@ -374,7 +374,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Syndex and Vespade";
-		displayName="Coyotes M52A (Security)";
+		displayName="[89M] Coyotes M52A (Security)";
 		hiddenSelectionsTextures[]=
 		{	
 			"89th_Armor\Data\Basic\DES\89th_Soft_Vest_DES.paa",
@@ -463,7 +463,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Syndex and Vespade";
-		displayName="Coyotes CH252 Helmet";
+		displayName="[89M] Coyotes CH252 Helmet";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
@@ -483,7 +483,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Syndex and Vespade";
-		displayName="Coyotes CH252 Helmet (VAC)";
+		displayName="[89M] Coyotes CH252 Helmet (VAC)";
 		scope=2;
 		CTAB_Camera="false";
 		hiddenSelectionsTextures[]=

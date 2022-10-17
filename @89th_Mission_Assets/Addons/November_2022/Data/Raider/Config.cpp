@@ -35,7 +35,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Rojas";
-		displayName="Raider Patrol Cap";
+		displayName="[89M] Raider Patrol Cap";
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\RAIDERS_patrolcap_desertnight.paa"
@@ -46,7 +46,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Rojas and Vespade";
-		displayName="Raider M52A (Rifleman)";
+		displayName="[89M] Raider M52A (Rifleman)";
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_softvest_desertnight.paa",
@@ -133,7 +133,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Rojas and Vespade";
-		displayName="Raider M52A (Team Leader)";
+		displayName="[89M] Raider M52A (Team Leader)";
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_softvest_desertnight.paa",
@@ -220,7 +220,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Rojas and Vespade";
-		displayName="Raider M52A (Marksman)";
+		displayName="[89M] Raider M52A (Marksman)";
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_softvest_desertnight.paa",
@@ -307,7 +307,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Rojas and Vespade";
-		displayName="Raider M52A (Assault)";
+		displayName="[89M] Raider M52A (Assault)";
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_softvest_desertnight.paa",
@@ -394,7 +394,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Rojas and Vespade";
-		displayName="Raider M52A (Security)";
+		displayName="[89M] Raider M52A (Security)";
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_softvest_desertnight.paa",
@@ -481,7 +481,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Rojas and Vespade";
-		displayName="Raider M52A (Medic)";
+		displayName="[89M] Raider M52A (Medic)";
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_softvest_desertnight.paa",
@@ -501,7 +501,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Rojas and Vespade";
-		displayName="Raider M52D (Rifleman)";
+		displayName="[89M] Raider M52D (Rifleman)";
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_softvest_desertnight.paa",
@@ -516,7 +516,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Rojas and Vespade";
-		displayName="Raider M52D (Scout)";
+		displayName="[89M] Raider M52D (Scout)";
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_softvest_desertnight.paa",
@@ -531,7 +531,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Rojas and Vespade";
-		displayName="Raider M52D (Sniper)";
+		displayName="[89M] Raider M52D (Sniper)";
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_softvest_desertnight.paa",
@@ -546,7 +546,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Rojas and Vespade";
-		displayName="Raider M52D (Demolition)";
+		displayName="[89M] Raider M52D (Demolition)";
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_softvest_desertnight.paa",
@@ -561,7 +561,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Rojas and Vespade";
-		displayName="Raider M52D (Marksman)";
+		displayName="[89M] Raider M52D (Marksman)";
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_softvest_desertnight.paa",
@@ -576,7 +576,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Rojas and Vespade";
-		displayName="Raider CH252D Helmet";
+		displayName="[89M] Raider CH252D Helmet";
 		CTAB_Camera="false";
 		hiddenSelectionsTextures[]=
 		{
@@ -598,7 +598,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Rojas and Vespade";
-		displayName="Raider CH252 Helmet";
+		displayName="[89M] Raider CH252 Helmet";
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
@@ -619,7 +619,7 @@ class cfgWeapons
 		dlc="89thJTF";
 		scope=2;
 		author="Rojas and Vespade";
-		displayName="Raider CH252 (Medic)";
+		displayName="[89M] Raider CH252 (Medic)";
 		CTAB_Camera="false";
 		hiddenSelectionsTextures[]=
 		{
@@ -637,7 +637,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Rojas and Vespade";
-		displayName="Raider CH252 Helmet (VAC)(Medic)";
+		displayName="[89M] Raider CH252 Helmet (VAC)(Medic)";
 		scope=2;
 		CTAB_Camera="false";
 		hiddenSelectionsTextures[]=
@@ -658,7 +658,7 @@ class cfgWeapons
 	{
 		dlc="89thJTF";
 		author="Rojas and Vespade";
-		displayName="Raider CH252 Helmet (VAC)";
+		displayName="[89M] Raider CH252 Helmet (VAC)";
 		scope=2;
 		CTAB_Camera="false";
 		hiddenSelectionsTextures[]=

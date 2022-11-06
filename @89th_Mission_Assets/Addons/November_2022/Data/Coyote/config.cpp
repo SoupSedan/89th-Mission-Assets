@@ -500,4 +500,24 @@ class cfgWeapons
 			};
 		};
 	};
+	class Coyote_CH252_VAC_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		dlc="89thJTF";
+		author="Rojas and Vespade";
+		displayName="[89M] SPMAGTF CH252 Helmet (VAC)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"November_2022\Data\Coyote\Coyote_marine_helmet_CO.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"November_2022\Data\Coyote\Coyote_marine_helmet_CO.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+			};
+		};
+	};
 };

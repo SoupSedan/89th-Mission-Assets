@@ -26,8 +26,10 @@ class cfgWeapons
 	class VES_M52D_Demolitions;
 	class VES_M52D_Marksman;
 	class VES_CH252D;
+	class VES_CH252D_dp;
 	class VES_CH252_MAR_Light;
 	class VES_CH252_MAR_Vacuum;
+	class VES_CH252_MAR_Vacuum_dp;
 	class ItemInfo;
 	class VestItem;
 	//Patrol Cap
@@ -592,6 +594,26 @@ class cfgWeapons
 			};
 		};
 	};
+	class Raider_CH252D_dp: VES_CH252D_dp
+	{
+		dlc="89thJTF";
+		author="Rojas and Vespade";
+		displayName="[89M] Raider CH252D Helmet [OFF]";
+		CTAB_Camera="false";
+		hiddenSelectionsTextures[]=
+		{
+			"November_2022\Data\Raider\raiders_odsthelmet_co_desertnight.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"November_2022\Data\Raider\raiders_odsthelmet_co_desertnight.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+			};
+		};
+	};
 	//Marine Helmets
 	class Raider_CH252_Light: VES_CH252_MAR_Light
 	{
@@ -654,11 +676,53 @@ class cfgWeapons
 			};
 		};
 	};
+	class Raider_CH252_M_VAC_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		dlc="89thJTF";
+		author="Rojas and Vespade";
+		displayName="[89M] Raider CH252 Helmet (VAC)(Medic)[OFF]";
+		scope=2;
+		CTAB_Camera="false";
+		hiddenSelectionsTextures[]=
+		{
+			"November_2022\Data\Raider\raiders_MEDICHELMET_CO_DESERTNIGHT.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"November_2022\Data\Raider\raiders_MEDICHELMET_CO_DESERTNIGHT.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+			};
+		};
+	};
 	class Raider_CH252_VAC: VES_CH252_MAR_Vacuum
 	{
 		dlc="89thJTF";
 		author="Rojas and Vespade";
 		displayName="[89M] Raider CH252 Helmet (VAC)";
+		scope=2;
+		CTAB_Camera="false";
+		hiddenSelectionsTextures[]=
+		{
+			"November_2022\Data\Raider\raiders_MARINEHELMET_CO_DESERTNIGHT.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"November_2022\Data\Raider\raiders_MARINEHELMET_CO_DESERTNIGHT.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+			};
+		};
+	};
+	class Raider_CH252_VAC_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		dlc="89thJTF";
+		author="Rojas and Vespade";
+		displayName="[89M] Raider CH252 Helmet (VAC)[OFF]";
 		scope=2;
 		CTAB_Camera="false";
 		hiddenSelectionsTextures[]=

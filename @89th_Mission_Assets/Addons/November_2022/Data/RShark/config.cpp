@@ -509,8 +509,29 @@ class cfgWeapons
 			hiddenSelectionsTextures[]=
 			{
 				"November_2022\Data\RShark\RShark_CH252_MARINE_HELMET_AD.paa",
-				"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+				"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+			};
+		};
+	};
+	class RShark_CH252_VAC_dp: VES_CH252_MAR_Vacuum_dp
+	{
+		dlc="89thJTF";
+		author="Rojas and Vespade";
+		displayName="[89M] Red Sharks CH252 Helmet (VAC)[OFF]";
+		CTAB_Camera="true";
+		hiddenSelectionsTextures[]=
+		{
+			"November_2022\Data\RShark\RShark_CH252_MARINE_HELMET_AD.paa",
+			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelectionsTextures[]=
+			{
+				"November_2022\Data\RShark\RShark_CH252_MARINE_HELMET_AD.paa",
+				"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
 			};
 		};
 	};
 };
+

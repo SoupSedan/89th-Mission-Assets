@@ -22,6 +22,7 @@ class cfgWeapons
 	class VES_M52A_MAR_Corpsman_A;
 	class VES_CH252_MAR_Light;
 	class VES_CH252_MAR_Vacuum;
+	class VES_CH252_MAR_Vacuum_dp;
 	class ItemInfo;
 	class VestItem;
 	//Patrol Cap

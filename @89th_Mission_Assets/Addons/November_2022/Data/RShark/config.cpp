@@ -523,14 +523,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\RShark\RShark_CH252_MARINE_HELMET_AD.paa",
-			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
 				"November_2022\Data\RShark\RShark_CH252_MARINE_HELMET_AD.paa",
-				"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
 	};

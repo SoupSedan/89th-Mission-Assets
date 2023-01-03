@@ -603,14 +603,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_odsthelmet_co_desertnight.paa",
-			"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
 				"November_2022\Data\Raider\raiders_odsthelmet_co_desertnight.paa",
-				"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
 	};
@@ -686,14 +686,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_MEDICHELMET_CO_DESERTNIGHT.paa",
-			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
 				"November_2022\Data\Raider\raiders_MEDICHELMET_CO_DESERTNIGHT.paa",
-				"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
 	};
@@ -728,14 +728,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Raider\raiders_MARINEHELMET_CO_DESERTNIGHT.paa",
-			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
 				"November_2022\Data\Raider\raiders_MARINEHELMET_CO_DESERTNIGHT.paa",
-				"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
 	};

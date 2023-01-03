@@ -509,14 +509,14 @@ class cfgWeapons
 		hiddenSelectionsTextures[]=
 		{
 			"November_2022\Data\Coyote\Coyote_marine_helmet_CO.paa",
-			"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
 				"November_2022\Data\Coyote\Coyote_marine_helmet_CO.paa",
-				"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
+				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
 	};

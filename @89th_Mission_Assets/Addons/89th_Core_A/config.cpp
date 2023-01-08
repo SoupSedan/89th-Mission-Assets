@@ -10,10 +10,6 @@ class CfgPatches
 		ammo[]={};
 		requiredVersion=0.1;
 		version=0.2;
-		requiredAddons[]=
-		{
-			"89th_Core"
-		};
 	};
 };
 class CfgEditorCategories

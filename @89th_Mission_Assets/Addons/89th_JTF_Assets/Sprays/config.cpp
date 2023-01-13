@@ -3,7 +3,6 @@ class CfgPatches
 	class 89th_Sprays_patch
 	{
 		author="89th Mod Team";
-		name="A2D: Fireteam Zulu";
 		requiredVersion=1;
 		requiredAddons[]={};
 	};
@@ -20,6 +19,16 @@ class CfgWeapons
 };
 class ACE_Tags
 {
+	class 89th1_1
+	{
+		displayName="1-1";
+		requiredItem="89th_Spraycan";
+		textures[]=
+		{
+			"89th_JTF_Assets\Sprays\1_1_ca"
+		};
+		icon="89th_JTF_Assets\Sprays\1_1_ca";
+	};
 	class 89th1_2
 	{
 		displayName="1-2";
@@ -39,6 +48,16 @@ class ACE_Tags
 			"89th_JTF_Assets\Sprays\1_3_ca"
 		};
 		icon="89th_JTF_Assets\Sprays\1_3_ca";
+	};
+	class 89th2_1
+	{
+		displayName="2-1";
+		requiredItem="89th_Spraycan";
+		textures[]=
+		{
+			"89th_JTF_Assets\Sprays\2_1_ca"
+		};
+		icon="89th_JTF_Assets\Sprays\2_1_ca";
 	};
 	class 89thAnvil
 	{

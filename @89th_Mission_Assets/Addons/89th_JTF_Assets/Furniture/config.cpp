@@ -27,10 +27,10 @@ class CfgVehicles
 	{
 		dlc="89thJTF";
 		scope=2;
-		scopeCurator=0;
+		scopeCurator=2;
 		displayName="BreadCouch";
 		icon="\OPTRE_UNSC_Units\Army\icons\Army_Helmet_wdl.paa";
-		model = "\89th_JTF_Assets\Furniture\ModTeamApplication.p3d";
+		model = "\89th_JTF_Assets\Furniture\breadCouch.p3d";
 		author = "EpsilonS";
 		armor = 999999;
 		armorStructural = 999;
@@ -42,7 +42,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"89th_JTF_Assets\Furniture\Data\ModTeamApplication_CO.paa",
+			"89th_JTF_Assets\Furniture\Data\breadCouch_CO.paa",
 		};
 	};
 };

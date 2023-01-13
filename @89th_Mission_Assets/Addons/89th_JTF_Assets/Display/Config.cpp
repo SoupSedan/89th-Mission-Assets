@@ -45,7 +45,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"89th_Armor\Data\Custom\Epsi\89th_marine_helmet_Epsilon_WDL_CO.paa",
+			"89th_Gear\CH252_Custom\Epsi\89th_CH252A_Epsi_WDL.paa",
 			"\optre_unsc_units\army\data\helmet_visor_ca.paa",
 			"\optre_unsc_units\army\data\ghillie_woodland_co.paa"
 		};

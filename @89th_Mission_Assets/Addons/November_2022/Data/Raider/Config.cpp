@@ -740,3 +740,191 @@ class cfgWeapons
 		};
 	};
 };
+class XtdGearModels
+{
+	class CfgWeapons
+	{
+		class 89th_SPMAGTF_M52
+		{
+			label="[89M] SPMAGTF M52";
+			author="89th Mod Team";
+			options[]=
+			{
+				"m52"
+				"special"
+			};
+			class m52
+			{
+				label="Armor Model";
+				alwaysSelectable=1;
+				values[]=
+				{
+					"m52a",
+					"m52d"
+				};
+				class m52a
+				{
+					label="M52A";
+				};
+				class m52d
+				{
+					label="M52D";
+				};
+			};
+			class special
+			{
+				label="Specialization";
+				alwaysSelectable=1;
+				values[]=
+				{
+					"rifle",
+					"teamlead",
+					"marksman",
+					"assault",
+					"security"
+				};
+				class rifle
+				{
+					label="Rifleman";
+				};
+				class teamlead
+				{
+					label="Team Lead";
+				};
+				class marksman
+				{
+					label="Marksman";
+				};
+				class assault
+				{
+					label="Assault";
+				};
+				class security
+				{
+					label="Security";
+				};
+			};
+		};
+		class 89th_SPMAGTF_CH252
+		{
+			label="[89M] SPMAGTF CH252";
+			author="89th Mod Team";
+			options[]=
+			{
+				"ch252",
+				"seal",
+				"visor"
+			};
+			class ch252
+			{
+				label="Helmet Model";
+				alwaysSelectable=1l
+				values[]=
+				{
+					"ch252a",
+					"ch252d"
+				};
+				class ch252a
+				{
+					label="CH252A";
+				};
+				class ch252d
+				{
+					label="CH252D";
+				};
+			};
+			class seal
+			{
+				label="Vaccum Seal";
+				alwaysSelectable=1;
+				values[]=
+				{
+					"open",
+					"vac"
+				};
+				class open
+				{
+					label="Open-faced";
+				};
+				class vac
+				{
+					label="Vac Sealed";
+				};
+			};
+			class visor
+			{
+				label="Visor";
+				alwaysSelectable=1;
+				values[]=
+				{
+					"on",
+					"off"
+				};
+				class on
+				{
+					label="On";
+				};
+				class off
+				{
+					label="Off";
+				};
+			};
+		};		
+	};
+};
+class XtdGearInfos
+{
+	class CfgWeapons
+	{
+		class Raider_M52A_Rifleman
+		{
+			model="89th_SPMAGTF_M52";
+			m52="m52a";
+			special="rifle";
+		};
+		class Raider_M52A_TeamLeader
+		{
+			model="89th_SPMAGTF_M52";
+			m52="m52a";
+			special="teamlead";
+		};
+		class Raider_M52A_Marksman
+		{
+			model="89th_SPMAGTF_M52";
+			m52="m52a";
+			special="marksman";
+		};
+		class Raider_M52A_Assault
+		{
+			model="89th_SPMAGTF_M52";
+			m52="m52a";
+			special="assault";
+		};
+		class Raider_M52A_Security
+		{
+			model="89th_SPMAGTF_M52";
+			m52="m52a";
+			special="security";
+		};
+		class Raider_CH252_Light
+		{
+			model="89th_SPMAGTF_CH252";
+			ch252="ch252a"
+			seal="open";
+		};
+		class Raider_CH252_VAC
+		{
+			model="89th_SPMAGTF_CH252";
+			ch252="ch252a"
+			seal="vac";
+			visor="on";
+		};
+		class Raider_CH252_VAC_dp
+		{
+			model="89th_SPMAGTF_CH252";
+			ch252="ch252a"
+			seal="vac";
+			visor="off";
+		};
+	};
+};

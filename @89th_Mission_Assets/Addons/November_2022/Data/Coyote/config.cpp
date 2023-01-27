@@ -521,3 +521,145 @@ class cfgWeapons
 		};
 	};
 };
+class XtdGearModels
+{
+	class CfgWeapons
+	{
+		class 89th_SPMAGTF_M52
+		{
+			label="[89M] SPMAGTF M52";
+			author="89th Mod Team";
+			options[]=
+			{
+				"special"
+			};
+			class special
+			{
+				label="Specialization";
+				alwaysSelectable=1;
+				values[]=
+				{
+					"rifle",
+					"teamlead",
+					"marksman",
+					"assault",
+					"security"
+				};
+				class rifle
+				{
+					label="Rifleman";
+				};
+				class teamlead
+				{
+					label="Team Lead";
+				};
+				class marksman
+				{
+					label="Marksman";
+				};
+				class assault
+				{
+					label="Assault";
+				};
+				class security
+				{
+					label="Security";
+				};
+			};
+		};
+		class 89th_SPMAGTF_CH252
+		{
+			label="[89M] SPMAGTF CH252";
+			author="89th Mod Team";
+			options[]=
+			{
+				"seal",
+				"visor"
+			};
+			class seal
+			{
+				label="Vaccum Seal";
+				alwaysSelectable=1;
+				values[]=
+				{
+					"open",
+					"vac"
+				};
+				class open
+				{
+					label="Open-faced";
+				};
+				class vac
+				{
+					label="Vac Sealed";
+				};
+			};
+			class visor
+			{
+				label="Visor";
+				alwaysSelectable=1;
+				values[]=
+				{
+					"on",
+					"off"
+				};
+				class on
+				{
+					label="On";
+				};
+				class off
+				{
+					label="Off";
+				};
+			};
+		};		
+	};
+};
+class XtdGearInfos
+{
+	class CfgWeapons
+	{
+		class Coyote_M52A_Rifleman
+		{
+			model="89th_SPMAGTF_M52";
+			special="rifle";
+		};
+		class Coyote_M52A_TeamLeader
+		{
+			model="89th_SPMAGTF_M52";
+			special="teamlead";
+		};
+		class Coyote_M52A_Marksman
+		{
+			model="89th_SPMAGTF_M52";
+			special="marksman";
+		};
+		class Coyote_M52A_Assault
+		{
+			model="89th_SPMAGTF_M52";
+			special="assault";
+		};
+		class Coyote_M52A_Security
+		{
+			model="89th_SPMAGTF_M52";
+			special="security";
+		};
+		class Coyote_CH252_Light
+		{
+			model="89th_SPMAGTF_CH252";
+			seal="open";
+		};
+		class Coyote_CH252_VAC
+		{
+			model="89th_SPMAGTF_CH252";
+			seal="vac";
+			visor="on";
+		};
+		class Coyote_CH252_VAC_dp
+		{
+			model="89th_SPMAGTF_CH252";
+			seal="vac";
+			visor="off";
+		};
+	};
+};

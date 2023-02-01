@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class 89th_JTF_Furniture
 	{
-		author="Flips"
+		author="Flips";
 		units[]=
 		{
 			"89th_Breadcouch"

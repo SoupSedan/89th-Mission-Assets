@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class 89th_JTF_Flags
 	{
-		author="89th JTF Mod Team"
+		author="89th JTF Mod Team";
 		units[]=
 		{
 			"89th_Flag_89thJTF",

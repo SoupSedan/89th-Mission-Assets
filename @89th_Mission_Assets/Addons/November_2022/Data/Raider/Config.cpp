@@ -750,7 +750,7 @@ class XtdGearModels
 			author="89th Mod Team";
 			options[]=
 			{
-				"m52"
+				"m52",
 				"special"
 			};
 			class m52

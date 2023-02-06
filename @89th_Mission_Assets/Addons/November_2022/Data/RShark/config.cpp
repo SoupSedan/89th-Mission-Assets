@@ -384,7 +384,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class BInniw_M52A_Security: VES_M52A_MAR_Rifleman_C
+	class RShark_M52A_Security: VES_M52A_MAR_Rifleman_C
 	{
 		dlc="89thJTF";
 		author="Rojas and Vespade";

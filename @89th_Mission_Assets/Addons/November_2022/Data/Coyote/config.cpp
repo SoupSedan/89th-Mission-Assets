@@ -30,11 +30,11 @@ class cfgWeapons
 		displayName="[89M] SPMAGTF M52A (Rifleman)";
 		hiddenSelectionsTextures[]=
 		{	
-			"89th_Armor\Data\Basic\DES\89th_Soft_Vest_DES.paa",
+			"89th_Gear\M52_Basic\DES\89th_SoftVest_DES.paa",
 			"November_2022\Data\Coyote\Coyote_M52_BLANK_CO.paa",
-			"89th_Armor\Data\Basic\DES\89th_M52_DES_Underlay_CO.paa",
+			"89th_Gear\M52_Basic\DES\89th_M52_Underlay_DES.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Basic\DES\89th_M52D_DES_CO.paa"
+			"89th_Gear\M52_Basic\DES\89th_M52D_DES.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -116,11 +116,11 @@ class cfgWeapons
 		displayName="[89M] SPMAGTF M52A (Team Leader)";
 		hiddenSelectionsTextures[]=
 		{	
-			"89th_Armor\Data\Basic\DES\89th_Soft_Vest_DES.paa",
+			"89th_Gear\M52_Basic\DES\89th_SoftVest_DES.paa",
 			"November_2022\Data\Coyote\Coyote_M52_BLANK_CO.paa",
-			"89th_Armor\Data\Basic\DES\89th_M52_DES_Underlay_CO.paa",
+			"89th_Gear\M52_Basic\DES\89th_M52_Underlay_DES.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Basic\DES\89th_M52D_DES_CO.paa"
+			"89th_Gear\M52_Basic\DES\89th_M52D_DES.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -203,11 +203,11 @@ class cfgWeapons
 		displayName="[89M] SPMAGTF M52A (Marksman)";
 		hiddenSelectionsTextures[]=
 		{	
-			"89th_Armor\Data\Basic\DES\89th_Soft_Vest_DES.paa",
+			"89th_Gear\M52_Basic\DES\89th_SoftVest_DES.paa",
 			"November_2022\Data\Coyote\Coyote_M52_BLANK_CO.paa",
-			"89th_Armor\Data\Basic\DES\89th_M52_DES_Underlay_CO.paa",
+			"89th_Gear\M52_Basic\DES\89th_M52_Underlay_DES.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Basic\DES\89th_M52D_DES_CO.paa"
+			"89th_Gear\M52_Basic\DES\89th_M52D_DES.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -290,11 +290,11 @@ class cfgWeapons
 		displayName="[89M] SPMAGTF M52A (Assault)";
 		hiddenSelectionsTextures[]=
 		{	
-			"89th_Armor\Data\Basic\DES\89th_Soft_Vest_DES.paa",
+			"89th_Gear\M52_Basic\DES\89th_SoftVest_DES.paa",
 			"November_2022\Data\Coyote\Coyote_M52_BLANK_CO.paa",
-			"89th_Armor\Data\Basic\DES\89th_M52_DES_Underlay_CO.paa",
+			"89th_Gear\M52_Basic\DES\89th_M52_Underlay_DES.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Basic\DES\89th_M52D_DES_CO.paa"
+			"89th_Gear\M52_Basic\DES\89th_M52D_DES.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -377,11 +377,11 @@ class cfgWeapons
 		displayName="[89M] SPMAGTF M52A (Security)";
 		hiddenSelectionsTextures[]=
 		{	
-			"89th_Armor\Data\Basic\DES\89th_Soft_Vest_DES.paa",
+			"89th_Gear\M52_Basic\DES\89th_SoftVest_DES.paa",
 			"November_2022\Data\Coyote\Coyote_M52_BLANK_CO.paa",
-			"89th_Armor\Data\Basic\DES\89th_M52_DES_Underlay_CO.paa",
+			"89th_Gear\M52_Basic\DES\89th_M52_Underlay_DES.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"89th_Armor\Data\Basic\DES\89th_M52D_DES_CO.paa"
+			"89th_Gear\M52_Basic\DES\89th_M52D_DES.paa"
 		};
 		class ItemInfo: VestItem
 		{

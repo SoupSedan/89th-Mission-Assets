@@ -215,6 +215,23 @@ class CfgVehicles
 		editorCategory="89th_EdCat_JTF";
 		editorSubcategory="89th_EdSubCat_Flags";
 	};	
+				class 89th_Flag_2_2Flag: OPTRE_CTF_Flag_Base
+	{
+		author="Soup";
+		scope=2;
+		scopeCurator=2;
+		displayName="[89th] 2-2 Flag";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"89th_JTF_Assets\Flags\Data\squadflags\2ndPlatoon2ndSquad.paa"
+		};
+		editorCategory="89th_EdCat_JTF";
+		editorSubcategory="89th_EdSubCat_Flags";
+	};	
 	//Flagpole Flags
 	class 89th_Flagpole_JTF: Flag_White_F
 	{

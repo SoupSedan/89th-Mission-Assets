@@ -59,6 +59,16 @@ class ACE_Tags
 		};
 		icon="89th_JTF_Assets\Sprays\2_1_ca";
 	};
+		class 89th2_2
+	{
+		displayName="2-2";
+		requiredItem="89th_Spraycan";
+		textures[]=
+		{
+			"89th_JTF_Assets\Sprays\2_2_ca"
+		};
+		icon="89th_JTF_Assets\Sprays\2_2_ca";
+	};
 	class 89thAnvil
 	{
 		displayName="Anvil";

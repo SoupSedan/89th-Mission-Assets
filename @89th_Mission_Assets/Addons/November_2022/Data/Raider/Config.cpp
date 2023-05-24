@@ -4,9 +4,16 @@ class cfgPatches
 	{
 		author="89th Mod Team";
 		name="Raider";
-		units[]={};
-		magazines[]={};
-		ammo[]={};
+		weapons[]=
+		{
+			"PatrolCap_Raider", "Raider_M52A_Rifleman", "Raider_M52A_TeamLeader",
+			"Raider_M52A_Marksman", "Raider_M52A_Assault", "Raider_M52A_Security",
+			"Raider_M52A_Medic", "Raider_M52D_Rifleman", "Raider_M52D_Scout",
+			"Raider_M52D_Sniper", "Raider_M52D_Demo", "Raider_M52D_Marksman",
+			"Raider_CH252D", "Raider_CH252D_dp", "Raider_CH252A_Light",
+			"Raider_CH252A_M_Light", "Raider_CH252A_M_VAC", "Raider_CH252A_M_VAC_dp",
+			"Raider_CH252A_VAC", "Raider_CH252A_VAC_dp"
+		};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
@@ -25,15 +32,15 @@ class cfgWeapons
 	class VES_M52D_Sniper;
 	class VES_M52D_Demolitions;
 	class VES_M52D_Marksman;
-	class VES_CH252D;
-	class VES_CH252D_dp;
+	class OPTRE_UNSC_CH252D_Helmet;
+	class OPTRE_UNSC_CH252D_Helmet_dp;
 	class VES_CH252_MAR_Light;
 	class VES_CH252_MAR_Vacuum;
 	class VES_CH252_MAR_Vacuum_dp;
 	class ItemInfo;
 	class VestItem;
 	//Patrol Cap
-	class 89th_PatrolCap_ARD: OPTRE_UNSC_PatrolCap_Marines
+	class PatrolCap_Raider: OPTRE_UNSC_PatrolCap_Marines
 	{
 		dlc="89thJTF";
 		author="Rojas";
@@ -574,7 +581,7 @@ class cfgWeapons
 		};
 	};
 	//ODST Helmet
-	class Raider_CH252D: VES_CH252D
+	class Raider_CH252D: OPTRE_UNSC_CH252D_Helmet
 	{
 		dlc="89thJTF";
 		author="Rojas and Vespade";
@@ -594,7 +601,7 @@ class cfgWeapons
 			};
 		};
 	};
-	class Raider_CH252D_dp: VES_CH252D_dp
+	class Raider_CH252D_dp: OPTRE_UNSC_CH252D_Helmet_dp
 	{
 		dlc="89thJTF";
 		author="Rojas and Vespade";
@@ -744,131 +751,31 @@ class XtdGearModels
 {
 	class CfgWeapons
 	{
-		class 89th_Raider_M52
-		{
-			label="[89M] Raider M52";
-			author="89th Mod Team";
-			options[]=
-			{
-				"m52",
-				"special"
-			};
-			class m52
-			{
-				label="Armor Model";
-				alwaysSelectable=1;
-				values[]=
-				{
-					"m52a",
-					"m52d"
-				};
-				class m52a
-				{
-					label="M52A";
-				};
-				class m52d
-				{
-					label="M52D";
-				};
-			};
-			class special
-			{
-				label="Specialization";
-				alwaysSelectable=1;
-				values[]=
-				{
-					"rifle",
-					"teamlead",
-					"marksman",
-					"assault",
-					"security",
-					"sniper",
-					"scout",
-					"demo"
-				};
-				class rifle
-				{
-					label="Rifleman";
-				};
-				class teamlead
-				{
-					label="Team Lead";
-				};
-				class marksman
-				{
-					label="Marksman";
-				};
-				class assault
-				{
-					label="Assault";
-				};
-				class security
-				{
-					label="Security";
-				};
-				class sniper
-				{
-					label="Sniper";
-				};
-				class scout
-				{
-					label="Scout";
-				};
-				class demo
-				{
-					label="Demo";
-				};
-			};
-		};
 		class 89th_Raider_CH252
 		{
 			label="[89M] Raider CH252";
 			author="89th Mod Team";
 			options[]=
 			{
-				"ch252",
 				"seal",
 				"visor"
 			};
-			class ch252
-			{
-				label="Helmet Model";
-				alwaysSelectable=1
-				values[]=
-				{
-					"ch252a",
-					"ch252d",
-					"medic"
-				};
-				class ch252a
-				{
-					label="CH252A";
-				};
-				class ch252d
-				{
-					label="CH252D";
-				};
-				class medic
-				{
-					label="Corpsman";
-				};
-			};
 			class seal
 			{
-				label="Vaccum Seal";
+				label="Seal";
 				alwaysSelectable=1;
 				values[]=
 				{
-					"open",
-					"vac"
-				};
-				class open
-				{
-					label="Open-faced";
+					"vac",
+					"open"
 				};
 				class vac
 				{
 					label="Vac Sealed";
+				};
+				class open
+				{
+					label="Open Face";
 				};
 			};
 			class visor
@@ -889,124 +796,202 @@ class XtdGearModels
 					label="Off";
 				};
 			};
-		};		
+		};
+		class 89th_Raider_M52
+		{
+			label="89th Raider M52";
+			author="89th Mod Team";
+			options[]=
+			{
+				"type",
+				"special"
+			};
+			class type
+			{
+				label="Model";
+				alwaysSelectable=1;
+				values[]=
+				{
+					"mar",
+					"odst"
+				};
+				class mar
+				{
+					label="Marine";
+				};
+				class odst
+				{
+					label="ODST";
+				};
+			};
+			class special
+			{
+				label="Specialization";
+				alwaysSelectable=1;
+				values[]=
+				{
+					"rifle", "tl", "mark",
+					"ass", "sec", "med",
+					"demo", "sct", "snpr"
+				};
+				class rifle
+				{
+					label="Rifleman";
+				};
+				class tl
+				{
+					label="Team lead";
+				};
+				class mark
+				{
+					label="Marksman";
+				};
+				class ass
+				{
+					label="Assault";
+				};
+				class sec
+				{
+					label="Security";
+				};
+				class med
+				{
+					label="Medic";
+				};
+				class demo
+				{
+					label="Demolitons";
+				};
+				class sct
+				{
+					label="Scout";
+				};
+				class snpr
+				{
+					label="Sniper";
+				};
+		};
 	};
 };
 class XtdGearInfos
 {
 	class CfgWeapons
 	{
+		//Marine Vests
 		class Raider_M52A_Rifleman
 		{
 			model="89th_Raider_M52";
-			m52="m52a";
+			type="mar";
 			special="rifle";
 		};
 		class Raider_M52A_TeamLeader
 		{
 			model="89th_Raider_M52";
-			m52="m52a";
-			special="teamlead";
+			type="mar";
+			special="tl";
 		};
 		class Raider_M52A_Marksman
 		{
 			model="89th_Raider_M52";
-			m52="m52a";
-			special="marksman";
+			type="mar";
+			special="mark";
 		};
 		class Raider_M52A_Assault
 		{
 			model="89th_Raider_M52";
-			m52="m52a";
-			special="assault";
+			type="mar";
+			special="ass";
 		};
 		class Raider_M52A_Security
 		{
 			model="89th_Raider_M52";
-			m52="m52a";
-			special="security";
+			type="mar";
+			special="sec";
 		};
+		class Raider_M52A_Medic
+		{
+			model="89th_Raider_M52";
+			type="mar";
+			special="med";
+		};
+		//ODST Vests
 		class Raider_M52D_Rifleman
 		{
 			model="89th_Raider_M52";
-			m52="m52d";
+			type="odst";
 			special="rifle";
+		};
+		class Raider_M52D_Scout
+		{
+			model="89th_Raider_M52";
+			type="odst";
+			special="sct";
+		};
+		class Raider_M52D_Sniper
+		{
+			model="89th_Raider_M52";
+			type="odst";
+			special="snpr";
 		};
 		class Raider_M52D_Demo
 		{
 			model="89th_Raider_M52";
-			m52="m52d";
+			type="odst";
 			special="demo";
 		};
 		class Raider_M52D_Marksman
 		{
 			model="89th_Raider_M52";
-			m52="m52d";
-			special="marksman";
+			type="odst";
+			special="mark";
 		};
-		class Raider_M52D_Scout
-		{
-			model="89th_Raider_M52";
-			m52="m52d";
-			special="scout";
-		};
-		class Raider_M52D_Sniper
-		{
-			model="89th_Raider_M52";
-			m52="m52d";
-			special="sniper";
-		};
-		class Raider_CH252A_Light
+		//Vac Helmets
+		class Raider_CH252D
 		{
 			model="89th_Raider_CH252";
-			ch252="ch252a"
-			seal="open";
-		};
-		class Raider_CH252A_VAC
-		{
-			model="89th_Raider_CH252";
-			ch252="ch252a"
 			seal="vac";
 			visor="on";
 		};
-		class Raider_CH252A_VAC_dp
+		class Raider_CH252D_dp
 		{
 			model="89th_Raider_CH252";
-			ch252="ch252a"
 			seal="vac";
 			visor="off";
-		};
-		class Raider_CH252A_M_Light
-		{
-			model="89th_Raider_CH252";
-			ch252="medic";
-			seal="open";
 		};
 		class Raider_CH252A_M_VAC
 		{
 			model="89th_Raider_CH252";
-			ch252="medic";
 			seal="vac";
 			visor="on";
 		};
 		class Raider_CH252A_M_VAC_dp
 		{
 			model="89th_Raider_CH252";
-			ch252="medic";
 			seal="vac";
 			visor="off";
 		};
-		class Raider_CH252D
+		class Raider_CH252A_VAC
 		{
 			model="89th_Raider_CH252";
-			ch252="ch252d";
+			seal="vac";
 			visor="on";
 		};
-		class Raider_CH252D_dp
+		class Raider_CH252A_VAC_dp
 		{
 			model="89th_Raider_CH252";
-			ch252="ch252d";
+			seal="vac";
 			visor="off";
+		};
+		//Open Faced Helmets
+		class Raider_CH252A_Light
+		{
+			model="89th_Raider_CH252";
+			seal="open";
+		};
+		class Raider_CH252A_M_Light
+		{
+			model="89th_Raider_CH252";
+			seal="open";
 		};
 	};
 };

@@ -16,7 +16,7 @@ class CfgEditorCategories
 {
 	class 89th_EdCat_JTF
 	{
-		displayName="[89th] Misc.";
+		displayName="[89th] Objects";
 	};
 	class 89th_EdCat_Nov_2022
 	{
@@ -29,17 +29,17 @@ class CfgEditorSubcategories
 	{
 		displayName="Posters";
 	};
-	class 89th_EdSubCat_Furniture
+	class 89th_EdSubCat_Props
 	{
-		displayName="Furniture";
-	};
-	class 89th_EdSubCat_Display
-	{
-		displayName="Display";
+		displayName="Props";
 	};
 	class 89th_EdSubCat_Flags
 	{
 		displayName="Flags";
+	};
+	class 89th_EdSubCat_Decal
+	{
+		displayName="Decals";
 	};
 };
 class CfgFactionClasses

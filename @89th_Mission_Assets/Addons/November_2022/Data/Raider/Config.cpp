@@ -870,6 +870,7 @@ class XtdGearModels
 				{
 					label="Sniper";
 				};
+			};
 		};
 	};
 };

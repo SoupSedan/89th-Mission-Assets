@@ -4,6 +4,7 @@ class CfgPatches
 	{
 		author="89th Mod Team";
 		requiredVersion=1;
+		units[] = {};
 		requiredAddons[]={};
 	};
 };

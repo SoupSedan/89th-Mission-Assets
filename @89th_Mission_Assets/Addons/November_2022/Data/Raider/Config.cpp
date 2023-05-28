@@ -15,6 +15,7 @@ class cfgPatches
 			"Raider_CH252A_VAC", "Raider_CH252A_VAC_dp"
 		};
 		requiredVersion=0.1;
+		units[] = {};
 		requiredAddons[]=
 		{
 			"OPTRE_Core",

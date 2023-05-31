@@ -13,6 +13,7 @@ class CfgPatches
 			"89th_Flag_Spades",
 			"89th_Flag_Platoon1",
 			"89th_Flag_Platoon2",
+			"89th_Flag_Platoon3",
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -161,6 +162,23 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"89th_JTF_Assets\Flags\Data\89th_flag_Platoon2.paa"
+		};
+		editorCategory="89th_EdCat_JTF";
+		editorSubcategory="89th_EdSubCat_Flags";
+	};
+		class 89th_Flag_Platoon3: OPTRE_CTF_Flag_Base
+	{
+		author="Flips";
+		scope=2;
+		scopeCurator=2;
+		displayName="[89th] 3rd Platoon Flag";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"89th_JTF_Assets\Flags\Data\89th_flag_Platoon3.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
 		editorSubcategory="89th_EdSubCat_Flags";

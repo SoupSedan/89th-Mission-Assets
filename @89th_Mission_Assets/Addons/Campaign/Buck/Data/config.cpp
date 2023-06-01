@@ -48,11 +48,11 @@ class cfgWeapons
 		displayName="[89M] RaiderV2 M52A (Rifleman)";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\M52_CHESTPLATE_RAIDERV2.paa",
-			"Campaign\Buck\B52_Underlay_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_CHESTPLATE_RAIDERV2.paa",
+			"Campaign\Buck\data\B52_Underlay_RAIDERV2.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Campaign\Buck\ODST_M52D_ARMOR_RAIDERV2.paa"
+			"Campaign\Buck\data\ODST_M52D_ARMOR_RAIDERV2.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -135,11 +135,11 @@ class cfgWeapons
 		displayName="[89M] RaiderV2 M52A (Team Leader)";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\M52_CHESTPLATE_RAIDERV2.paa",
-			"Campaign\Buck\B52_Underlay_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_CHESTPLATE_RAIDERV2.paa",
+			"Campaign\Buck\data\B52_Underlay_RAIDERV2.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Campaign\Buck\ODST_M52D_ARMOR_RAIDERV2.paa"
+			"Campaign\Buck\data\ODST_M52D_ARMOR_RAIDERV2.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -222,11 +222,11 @@ class cfgWeapons
 		displayName="[89M] RaiderV2 M52A (Marksman)";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\M52_CHESTPLATE_RAIDERV2.paa",
-			"Campaign\Buck\B52_Underlay_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_CHESTPLATE_RAIDERV2.paa",
+			"Campaign\Buck\data\B52_Underlay_RAIDERV2.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Campaign\Buck\ODST_M52D_ARMOR_RAIDERV2.paa"
+			"Campaign\Buck\data\ODST_M52D_ARMOR_RAIDERV2.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -309,11 +309,11 @@ class cfgWeapons
 		displayName="[89M] RaiderV2 M52A (Assault)";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\M52_CHESTPLATE_RAIDERV2.paa",
-			"Campaign\Buck\B52_Underlay_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_CHESTPLATE_RAIDERV2.paa",
+			"Campaign\Buck\data\B52_Underlay_RAIDERV2.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Campaign\Buck\ODST_M52D_ARMOR_RAIDERV2.paa"
+			"Campaign\Buck\data\ODST_M52D_ARMOR_RAIDERV2.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -396,11 +396,11 @@ class cfgWeapons
 		displayName="[89M] RaiderV2 M52A (Security)";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\M52_CHESTPLATE_RAIDERV2.paa",
-			"Campaign\Buck\B52_Underlay_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_CHESTPLATE_RAIDERV2.paa",
+			"Campaign\Buck\data\B52_Underlay_RAIDERV2.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Campaign\Buck\ODST_M52D_ARMOR_RAIDERV2.paa"
+			"Campaign\Buck\data\ODST_M52D_ARMOR_RAIDERV2.paa"
 		};
 		class ItemInfo: VestItem
 		{
@@ -483,11 +483,11 @@ class cfgWeapons
 		displayName="[89M] RaiderV2 M52A (Medic)";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\M52_MEDIC_CHESTPLATE_RAIDERV2.paa",
-			"Campaign\Buck\B52_Underlay_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_MEDIC_CHESTPLATE_RAIDERV2.paa",
+			"Campaign\Buck\data\B52_Underlay_RAIDERV2.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Campaign\Buck\ODST_M52D_ARMOR_RAIDERV2.paa"
+			"Campaign\Buck\data\ODST_M52D_ARMOR_RAIDERV2.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
@@ -503,11 +503,11 @@ class cfgWeapons
 		displayName="[89M] RaiderV2 M52D (Rifleman)";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\B52_Underlay_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\B52_Underlay_RAIDERV2.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Campaign\Buck\ODST_M52D_ARMOR_RAIDERV2.paa"
+			"Campaign\Buck\data\ODST_M52D_ARMOR_RAIDERV2.paa"
 		};
 	};
 	class Raider2_M52D_Scout: VES_M52D_Scout
@@ -518,11 +518,11 @@ class cfgWeapons
 		displayName="[89M] RaiderV2 M52D (Scout)";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\B52_Underlay_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\B52_Underlay_RAIDERV2.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Campaign\Buck\ODST_M52D_ARMOR_RAIDERV2.paa"
+			"Campaign\Buck\data\ODST_M52D_ARMOR_RAIDERV2.paa"
 		};
 	};
 	class Raider2_M52D_Sniper: VES_M52D_Sniper
@@ -533,11 +533,11 @@ class cfgWeapons
 		displayName="[89M] RaiderV2 M52D (Sniper)";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\B52_Underlay_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\B52_Underlay_RAIDERV2.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Campaign\Buck\ODST_M52D_ARMOR_RAIDERV2.paa"
+			"Campaign\Buck\data\ODST_M52D_ARMOR_RAIDERV2.paa"
 		};
 	};
 	class Raider2_M52D_Demo: VES_M52D_Demolitions
@@ -548,11 +548,11 @@ class cfgWeapons
 		displayName="[89M] RaiderV2 M52D (Demolition)";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\B52_Underlay_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\B52_Underlay_RAIDERV2.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Campaign\Buck\ODST_M52D_ARMOR_RAIDERV2.paa"
+			"Campaign\Buck\data\ODST_M52D_ARMOR_RAIDERV2.paa"
 		};
 	};
 	class Raider2_M52D_Marksman: VES_M52D_Marksman
@@ -563,11 +563,11 @@ class cfgWeapons
 		displayName="[89M] RaiderV2 M52D (Marksman)";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\M52_V_RAIDERV2.paa",
-			"Campaign\Buck\B52_Underlay_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\M52_V_RAIDERV2.paa",
+			"Campaign\Buck\data\B52_Underlay_RAIDERV2.paa",
 			"optre_unsc_units\army\data\ghillie_woodland_co.paa",
-			"Campaign\Buck\ODST_M52D_ARMOR_RAIDERV2.paa"
+			"Campaign\Buck\data\ODST_M52D_ARMOR_RAIDERV2.paa"
 		};
 	};
 	//ODST Helmet
@@ -579,14 +579,14 @@ class cfgWeapons
 		CTAB_Camera="false";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\ODST_CH252D_RAIDERV2.paa",
+			"Campaign\Buck\data\ODST_CH252D_RAIDERV2.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Campaign\Buck\ODST_CH252D_RAIDERV2.paa",
+				"Campaign\Buck\data\ODST_CH252D_RAIDERV2.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252D_GLD_V_CO"
 			};
 		};
@@ -599,14 +599,14 @@ class cfgWeapons
 		CTAB_Camera="false";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\ODST_CH252D_RAIDERV2.paa",
+			"Campaign\Buck\data\ODST_CH252D_RAIDERV2.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Campaign\Buck\ODST_CH252D_RAIDERV2.paa",
+				"Campaign\Buck\data\ODST_CH252D_RAIDERV2.paa",
 				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
@@ -621,14 +621,14 @@ class cfgWeapons
 		CTAB_Camera="true";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\CH252_MARINE_HELMET_RAIDERV2.paa",
+			"Campaign\Buck\data\CH252_MARINE_HELMET_RAIDERV2.paa",
 			""
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Campaign\Buck\CH252_MARINE_HELMET_RAIDERV2.paa",
+				"Campaign\Buck\data\CH252_MARINE_HELMET_RAIDERV2.paa",
 				""
 			};
 		};
@@ -642,13 +642,13 @@ class cfgWeapons
 		CTAB_Camera="false";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\CH252_MEDIC_HELMET_RAIDERV2.paa",
+			"Campaign\Buck\data\CH252_MEDIC_HELMET_RAIDERV2.paa",
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Campaign\Buck\CH252_MEDIC_HELMET_RAIDERV2.paa",
+				"Campaign\Buck\data\CH252_MEDIC_HELMET_RAIDERV2.paa",
 			};
 		};
 	};
@@ -661,14 +661,14 @@ class cfgWeapons
 		CTAB_Camera="false";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\CH252_MEDIC_HELMET_RAIDERV2.paa",
+			"Campaign\Buck\data\CH252_MEDIC_HELMET_RAIDERV2.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Campaign\Buck\CH252_MEDIC_HELMET_RAIDERV2.paa",
+				"Campaign\Buck\data\CH252_MEDIC_HELMET_RAIDERV2.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
 			};
 		};
@@ -682,14 +682,14 @@ class cfgWeapons
 		CTAB_Camera="false";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\CH252_MEDIC_HELMET_RAIDERV2.paa",
+			"Campaign\Buck\data\CH252_MEDIC_HELMET_RAIDERV2.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Campaign\Buck\CH252_MEDIC_HELMET_RAIDERV2.paa",
+				"Campaign\Buck\data\CH252_MEDIC_HELMET_RAIDERV2.paa",
 				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};
@@ -703,14 +703,14 @@ class cfgWeapons
 		CTAB_Camera="false";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\CH252_MARINE_HELMET_RAIDERV2.paa",
+			"Campaign\Buck\data\CH252_MARINE_HELMET_RAIDERV2.paa",
 			"V_FZ_Armor\Data\Helmets\V_CH252_SLV_V_CO.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Campaign\Buck\CH252_MARINE_HELMET_RAIDERV2.paa",
+				"Campaign\Buck\data\CH252_MARINE_HELMET_RAIDERV2.paa",
 				"V_FZ_Armor\Data\Helmets\V_CH252_GLD_V_CO.paa"
 			};
 		};
@@ -724,14 +724,14 @@ class cfgWeapons
 		CTAB_Camera="false";
 		hiddenSelectionsTextures[]=
 		{
-			"Campaign\Buck\CH252_MARINE_HELMET_RAIDERV2.paa",
+			"Campaign\Buck\data\CH252_MARINE_HELMET_RAIDERV2.paa",
 			"optre_unsc_units\army\data\helmet_visor_ca.paa"
 		};
 		class ItemInfo: ItemInfo
 		{
 			hiddenSelectionsTextures[]=
 			{
-				"Campaign\Buck\CH252_MARINE_HELMET_RAIDERV2.paa",
+				"Campaign\Buck\data\CH252_MARINE_HELMET_RAIDERV2.paa",
 				"optre_unsc_units\army\data\helmet_visor_ca.paa"
 			};
 		};

@@ -6,7 +6,7 @@ class cfgPatches
 		name="Raider";
 		weapons[]=
 		{
-			"PatrolCap_Raider", "Raider_M52A_Rifleman", "Raider_M52A_TeamLeader",
+			"Raider_M52A_Rifleman", "Raider_M52A_TeamLeader",
 			"Raider_M52A_Marksman", "Raider_M52A_Assault", "Raider_M52A_Security",
 			"Raider_M52A_Medic", "Raider_M52D_Rifleman", "Raider_M52D_Scout",
 			"Raider_M52D_Sniper", "Raider_M52D_Demo", "Raider_M52D_Marksman",
@@ -40,17 +40,6 @@ class cfgWeapons
 	class VES_CH252_MAR_Vacuum_dp;
 	class ItemInfo;
 	class VestItem;
-	//Patrol Cap
-	class PatrolCap_Raider: OPTRE_UNSC_PatrolCap_Marines
-	{
-		dlc="89thJTF";
-		author="Rojas";
-		displayName="[89M] Raider Patrol Cap";
-		hiddenSelectionsTextures[]=
-		{
-			"November_2022\Data\Raider\Raider_patrolcap_desertnight.paa"
-		};
-	};
 	//Marine Vests
 	class Raider_M52A_Rifleman: VES_M52A_MAR_Rifleman_C
 	{

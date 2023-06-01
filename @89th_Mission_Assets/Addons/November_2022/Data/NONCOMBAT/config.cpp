@@ -119,8 +119,8 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"November_2022\Data\NONCOMBAT\RaiderV2BDU.paa",
-			"November_2022\Data\NONCOMBAT\RaiderV2BDU.paa"
+			"November_2022\Data\NONCOMBAT\RAIDERS_UNIFORM_DESERTNIGHT.paa",
+			"November_2022\Data\NONCOMBAT\RAIDERS_UNIFORM_DESERTNIGHT.paa"
 		};
 		uniformClass="BDU_SLIM_DN";
 	};
@@ -128,8 +128,8 @@ class cfgVehicles
 	{
 		hiddenSelectionsTextures[]=
 		{
-			"November_2022\Data\NONCOMBAT\RaiderV2BDU.paa",
-			"November_2022\Data\NONCOMBAT\RaiderV2BDU.paa"
+			"November_2022\Data\NONCOMBAT\RAIDERS_UNIFORM_DESERTNIGHT.paa",
+			"November_2022\Data\NONCOMBAT\RAIDERS_UNIFORM_DESERTNIGHT.paa"
 		};
 		uniformClass="BDU_R_SLIM_DN";
 	};

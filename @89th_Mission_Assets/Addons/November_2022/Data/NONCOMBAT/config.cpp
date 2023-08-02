@@ -110,6 +110,26 @@ class cfgWeapons
 			uniformClass="BDU_R_V_SLIM_COY";
 		};
 	};
+	class BDU_SLIM_SWCC: VES_BDU_Evolved_Slim
+	{
+		displayName="[89M] UNSC ARMY SWCC (Slim)";
+		class ItemInfo: UniformItem
+		{
+			uniformType="Neopren";
+			containerClass="Supply200";
+			uniformClass="BDU_V_SLIM_SWCC";
+		};
+	};
+	class BDU_R_SLIM_SWCC: VES_BDU_R_Evolved_Slim
+	{
+		displayName="[89M] UNSC ARMY SWCC (Rolled)(Slim)";
+		class ItemInfo: UniformItem
+		{
+			uniformType="Neopren";
+			containerClass="Supply200";
+			uniformClass="BDU_R_V_SLIM_SWCC";
+		};
+	};
 };
 class cfgVehicles
 {
@@ -168,6 +188,24 @@ class cfgVehicles
 			"November_2022\Data\NONCOMBAT\COYOTE_BDU_CO.paa"
 		};
 		uniformClass="BDU_R_SLIM_COY";
+		};
+	class BDU_V_SLIM_SWCC: VES_BDU_V_Evolved_Slim
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"November_2022\Data\NONCOMBAT\V_BDU_SWCC_CO.paa",
+			"November_2022\Data\NONCOMBAT\V_BDU_SWCC_CO.paa"
+		};
+		uniformClass="BDU_SLIM_SWCC";
+		};
+	class BDU_R_V_SLIM_SWCC: VES_BDU_R_V_Evolved_SLIM
+	{
+		hiddenSelectionsTextures[]=
+		{
+			"November_2022\Data\NONCOMBAT\V_BDU_SWCC_CO.paa",
+			"November_2022\Data\NONCOMBAT\V_BDU_SWCC_CO.paa"
+		};
+		uniformClass="BDU_R_SLIM_SWCC";
 		};
 	};
 };

@@ -100,4 +100,14 @@ class ACE_Tags
 		};
 		icon="89th_JTF_Assets\Sprays\1_2_ca";
 	};
+	class 89thSpades
+	{
+		displayName="Spades";
+		requiredItem="89th_Spraycan";
+		textures[]=
+		{
+			"89th_JTF_Assets\Sprays\Spades_ca"
+		};
+		icon="89th_JTF_Assets\Sprays\Spades_ca";
+	};
 };

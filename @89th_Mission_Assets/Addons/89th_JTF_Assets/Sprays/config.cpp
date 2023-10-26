@@ -110,4 +110,14 @@ class ACE_Tags
 		};
 		icon="89th_JTF_Assets\Sprays\Spades_ca";
 	};
+	class 89thPig
+	{
+		displayName="Pig";
+		requiredItem="89th_Spraycan";
+		textures[]=
+		{
+			"89th_JTF_Assets\Sprays\pig_ca"
+		};
+		icon="89th_JTF_Assets\Sprays\pig_ca";
+	};
 };

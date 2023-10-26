@@ -9,7 +9,7 @@ class CfgPatches
 			"89th_Flag_Goliath",
 			"89th_Flag_Legion",
 			"89th_Flag_Thor",
-			"89th_Flag_Knight",
+			"89th_Flag_Bastard",
 			"89th_Flag_Spades",
 			"89th_Flag_Platoon1",
 			"89th_Flag_Platoon2",
@@ -99,19 +99,19 @@ class CfgVehicles
 		};
 		editorCategory="89th_EdCat_JTF";
 		editorSubcategory="89th_EdSubCat_Flags";
-	};class 89th_Flag_Knight: OPTRE_CTF_Flag_Base
+	};class 89th_Flag_Bastard: OPTRE_CTF_Flag_Base
 	{
-		author="Flips";
+		author="Soup";
 		scope=2;
 		scopeCurator=2;
-		displayName="[89th] Knight Flag";
+		displayName="[89th] Bastard Company Flag";
 		hiddenSelections[]=
 		{
 			"camo1"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"89th_JTF_Assets\Flags\Data\89th_flag_Knight.paa"
+			"89th_JTF_Assets\Flags\Data\BastardCompanyFlag.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
 		editorSubcategory="89th_EdSubCat_Flags";
@@ -336,4 +336,3 @@ class CfgVehicles
 		};
 	};
 };
-

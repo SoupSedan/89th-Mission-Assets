@@ -14,6 +14,7 @@ class CfgPatches
 			"89th_Flag_Platoon1",
 			"89th_Flag_Platoon2",
 			"89th_Flag_Platoon3",
+			"89th_Flag_Pig",
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -166,7 +167,7 @@ class CfgVehicles
 		editorCategory="89th_EdCat_JTF";
 		editorSubcategory="89th_EdSubCat_Flags";
 	};
-		class 89th_Flag_Platoon3: OPTRE_CTF_Flag_Base
+	class 89th_Flag_Platoon3: OPTRE_CTF_Flag_Base
 	{
 		author="Flips";
 		scope=2;
@@ -179,6 +180,23 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"89th_JTF_Assets\Flags\Data\89th_flag_Platoon3.paa"
+		};
+		editorCategory="89th_EdCat_JTF";
+		editorSubcategory="89th_EdSubCat_Flags";
+	};
+	class 89th_Flag_Pig: OPTRE_CTF_Flag_Base
+	{
+		author="Soup";
+		scope=2;
+		scopeCurator=2;
+		displayName="[89th] Pig Team Flag";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"89th_JTF_Assets\Flags\Data\PigTeamFlag.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
 		editorSubcategory="89th_EdSubCat_Flags";

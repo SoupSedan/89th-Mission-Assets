@@ -71,7 +71,7 @@ class CfgVehicles
 		author="Flips";
 		scope=2;
 		scopeCurator=2;
-		displayName="[89th] Legion Flag";
+		displayName="[89th] Outlaw Flag";
 		hiddenSelections[]=
 		{
 			"camo1"
@@ -88,7 +88,7 @@ class CfgVehicles
 		author="Flips";
 		scope=2;
 		scopeCurator=2;
-		displayName="[89th] Thor Flag";
+		displayName="[89th] Brimstone Flag";
 		hiddenSelections[]=
 		{
 			"camo1"

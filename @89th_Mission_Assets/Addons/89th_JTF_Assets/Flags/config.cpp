@@ -7,7 +7,7 @@ class CfgPatches
 		{
 			"89th_Flag_89thJTF",
 			"89th_Flag_Goliath",
-			"89th_Flag_Legion",
+			"89th_Flag_Outlaw",
 			"89th_Flag_Thor",
 			"89th_Flag_Bastard",
 			"89th_Flag_Spades",
@@ -78,7 +78,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"89th_JTF_Assets\Flags\Data\89th_flag_Legion.paa"
+			"89th_JTF_Assets\Flags\Data\89th_flag_Outlaw.paa"
 		};
 		editorCategory="89th_EdCat_JTF";
 		editorSubcategory="89th_EdSubCat_Flags";

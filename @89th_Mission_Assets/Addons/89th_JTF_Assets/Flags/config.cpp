@@ -16,6 +16,13 @@ class CfgPatches
 			"89th_Flag_Platoon2",
 			"89th_Flag_Platoon3",
 			"89th_Flag_Pig",
+			"89th_Flag_1_1Flag",
+			"89th_Flag_1_2Flag",
+			"89th_Flag_2_1Flag",
+			"89th_Flag_2_2Flag",
+			"89th_Flag_2_3Flag",
+			"89th_Flag_3_1Flag",
+			"89th_Flag_3_2Flag"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -67,7 +74,7 @@ class CfgVehicles
 		editorCategory="89th_EdCat_JTF";
 		editorSubcategory="89th_EdSubCat_Flags";
 	};
-	class 89th_Flag_Legion: OPTRE_CTF_Flag_Base
+	class 89th_Flag_Outlaw: OPTRE_CTF_Flag_Base
 	{
 		author="Flips";
 		scope=2;
@@ -84,7 +91,7 @@ class CfgVehicles
 		editorCategory="89th_EdCat_JTF";
 		editorSubcategory="89th_EdSubCat_Flags";
 	};
-	class 89th_Flag_Thor: OPTRE_CTF_Flag_Base
+	class 89th_Flag_Brimstone: OPTRE_CTF_Flag_Base
 	{
 		author="Flips";
 		scope=2;

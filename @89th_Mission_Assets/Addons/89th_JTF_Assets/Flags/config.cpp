@@ -117,7 +117,6 @@ class CfgVehicles
 		};
 		editorCategory="89th_EdCat_JTF";
 		editorSubcategory="89th_EdSubCat_Flags";
-	};
 	};class 89th_Flag_Bastard: OPTRE_CTF_Flag_Base
 	{
 		author="Soup";
